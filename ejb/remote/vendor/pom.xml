@@ -12,7 +12,12 @@
     
     <artifactId>ejb-remote-vendor</artifactId>
     <packaging>pom</packaging>
-
+   
+    <properties>
+    	<glassfish.client.version>5.0</glassfish.client.version>
+        <java.min.version>1.7</java.min.version>
+    </properties>
+    
     <name>Java EE 7 Sample: ejb - remote - vendor</name>
 
     <profiles>
